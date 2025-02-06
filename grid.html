@@ -4,32 +4,106 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css" 
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css"
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"><script src="https://kit.fontawesome.com/7bfda89e58.js" crossorigin="anonymous"></script>
+
+    <title></title>
 </head>
 <body>
-   
-</body>
-</html>
-<body>
     <nav class="navbar bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand">Navbar</a>
-        <form class="d-flex" role="search"><div class="dropdown">
-          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown button
+        <div class="container-fluid">
+          <div class="header-1">
+          <i class="fa-brands fa-instagram fa-xl"></i>
+          <a class="navbar-brand">Instagram</a>
+              </div>      
+          <!-- Button trigger modal -->
+           <div class="header-2">
+          <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Create a new post
           </button>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
+          
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Create a new post</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                  <div class="modal-header">
+                    caption:
+                  </div>
+                <div class="modal-body"> 
+                  <textarea class="form-control" rows="2">Add a caption of your post</textarea>
+                </div>
+               <div class="modal-content ">
+               <i class="fa-solid fa-camera"> <i class="fa-solid fa-location-dot"></i></i>                
+               </div>                                         
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-success">Publish</button>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <div class="dropdown">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fa-solid fa-gear"></i>
+            </a>
+          
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Profile</a></li>
+              <li><a class="dropdown-item" href="#">Accesibility </a></li>
+              <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#" style="color: red;">Log out</a></li>
+            </ul>
+          </div>
         </div>
-  
+        </div>
+      </nav>
+      <div class="toggle">
+  <a href="grid.html"><i class="fa-solid fa-table-cells"></i></a>
+  <a href="index.html" ><i class="fa-solid fa-square"></i></a>
       </div>
-    </nav>
-  
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dis 
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+          <img src="https://i.pinimg.com/200x150/af/67/a7/af67a78fd65e9d3e793f8733c0ce4df9.jpg"/>
+          </div>
+          <div class="col">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfRZ9ISffLuJK401l4Q9QVKi66RXWUdJRYNA&s"/>
+          </div>
+          <div class="col">
+            <img src="https://marvel-b1-cdn.bc0a.com/f00000000269980/s18391.pcdn.co/wp-content/uploads/2022/09/Mack-Truks-Splash-2-1400-1024x512.jpg"/>
+          </div>
+        </div>  
+        <div class="row">
+          <div class="col">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcW8U0T4eqVH7D8xuzk6rr-LPQkBcUj4S2ag&s"/>
+          </div>
+          <div class="col">
+            <img src="https://previews.123rf.com/images/aprior/aprior1909/aprior190900015/131337144-semi-trailers-truks-in-a-row-in-the-parking-lot-against-the-sky.jpg"/>
+          </div>
+          <div class="col">
+            <img src="https://mir-s3-cdn-cf.behance.net/projects/404/2eb683192756671.Y3JvcCwxMTUwLDkwMCwyNTAsMA.jpg"/>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+           <img src="https://cdn.pixabay.com/photo/2018/05/02/17/13/vehicle-3369106_1280.jpg"/> 
+          </div>
+          <div class="col">
+          <img src="https://s.alicdn.com/@sc04/kf/H02e3427dea7b469db8baf2bd31b342c8m.png_300x300.jpg"/>
+          </div>
+          <div class="col">
+            <img src="https://i.ytimg.com/vi/JrHDeSMvnt4/hq720.jpg?sqp=-oaymwEXCK4FEIIDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDWEivUddPigjqJyGZ43Il4x0BQRQ"/>
+          </div>
+        </div>
+      </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
       
 </body>
 </html>
